@@ -1,6 +1,4 @@
-;;; -*- Mode: Emacs-Lisp; -*-
-
-;;;;;;; Activator: an init.d style config manager
+;;; activator.el --- an init.d style config manager
 ;; 
 ;; This file is NOT part of GNU Emacs
 ;;
@@ -16,6 +14,7 @@
 ;; Emacs; see the file `COPYING'. If not, write to the Free Software 
 ;; Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
 
+;;; Commentary:
 
 ;; INTRODUCTION:
 ;; 
@@ -60,6 +59,7 @@
 ;;
 ;; 
 
+;;; Code:
 
 (defconst activator-copyright "Copyright (C) 2009 Andrew Gwozdziewycz")
 (defconst activator-version 0.01)
